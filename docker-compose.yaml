@@ -1,0 +1,15 @@
+version: '3.8'
+
+name: ethan-portfolio
+
+services:
+  client:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: next-client
+    ports:
+      - '1738:3000'
+    volumes:
+      - ./:/src
+
