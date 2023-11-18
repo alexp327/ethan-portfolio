@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className='max-w-7xl mx-auto border-4 border-red-500 '>
+    <main className='max-w-7xl mx-auto border-4 border-red-500 px-2'>
       <div className='min-h-[80vh] w-full flex'>
         <div className='flex flex-col justify-center w-full'>
           <h1 className='text-6xl'>
@@ -14,7 +14,7 @@ export default function Home() {
           <h3 className='text-lg mt-4'>
             Mechanical Engineer &#x2022; Student &#x2022; Theme Park Enthusiast
           </h3>
-          <div className='mt-4 space-x-4'>
+          <div className='mt-6 space-x-4'>
             <Button variant={'outline'} size={'lg'}>
               My Work
             </Button>
