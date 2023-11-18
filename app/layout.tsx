@@ -36,8 +36,6 @@ export default function RootLayout({
         >
           <Navbar />
           {children}
-          <div className='bg-green-500 min-h-screen'></div>
-          <div className='bg-orange-500 min-h-screen'></div>
         </ThemeProvider>
       </body>
     </html>

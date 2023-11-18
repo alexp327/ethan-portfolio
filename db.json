@@ -1,8 +1,35 @@
 {
-	"projects": [
-		{
-			"id": 1,
-			"description": "test"
-		}
-	]
+  "projects": [
+    {
+      "title": "Title",
+      "description": "Test descripotion here. I really liked this project. blah blah blah.",
+      "tools": ["CAD", "Critical thinking"]
+    },
+    {
+      "title": "Title",
+      "description": "Test descripotion here. I really liked this project. blah blah blah.",
+      "tools": ["CAD", "Critical thinking"]
+    },
+    {
+      "title": "Title",
+      "description": "Test descripotion here. I really liked this project. blah blah blah.",
+      "tools": ["CAD", "Critical thinking"]
+    },
+    {
+      "title": "Title",
+      "description": "Test descripotion here. I really liked this project. blah blah blah.",
+      "tools": ["CAD", "Critical thinking"]
+    },
+    {
+      "title": "Title",
+      "description": "Test descripotion here. I really liked this project. blah blah blah.",
+      "tools": ["CAD", "Critical thinking"]
+    },
+    {
+      "title": "Title",
+      "description": "Test descripotion here. I really liked this project. blah blah blah.",
+      "tools": ["CAD", "Critical thinking"]
+    }
+  ]
 }
+
