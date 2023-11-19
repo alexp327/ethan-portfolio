@@ -2,33 +2,39 @@
   "projects": [
     {
       "title": "Title",
-      "description": "Test descripotion here. I really liked this project. blah blah blah.",
-      "tools": ["CAD", "Critical thinking"]
+      "image": "/title.jpg",
+      "description": "Test description here. I really liked this project. blah blah blah.",
+      "tools": ["CAD", "Critical Thinking"]
     },
     {
       "title": "Title",
-      "description": "Test descripotion here. I really liked this project. blah blah blah.",
-      "tools": ["CAD", "Critical thinking"]
+      "image": "/title.jpg",
+      "description": "Test description here. I really liked this project. blah blah blah.",
+      "tools": ["CAD", "Critical Thinking"]
     },
     {
       "title": "Title",
-      "description": "Test descripotion here. I really liked this project. blah blah blah.",
-      "tools": ["CAD", "Critical thinking"]
+      "image": "/title.jpg",
+      "description": "Test description here. I really liked this project. blah blah blah.",
+      "tools": ["CAD", "Critical Thinking"]
     },
     {
       "title": "Title",
-      "description": "Test descripotion here. I really liked this project. blah blah blah.",
-      "tools": ["CAD", "Critical thinking"]
+      "image": "/iphone2.jpg",
+      "description": "Test description here. I really liked this project. blah blah blah.",
+      "tools": ["CAD", "Critical Thinking"]
     },
     {
       "title": "Title",
-      "description": "Test descripotion here. I really liked this project. blah blah blah.",
-      "tools": ["CAD", "Critical thinking"]
+      "image": "/iphone2.jpg",
+      "description": "Test description here. I really liked this project. blah blah blah.",
+      "tools": ["CAD", "Critical Thinking"]
     },
     {
       "title": "Title",
-      "description": "Test descripotion here. I really liked this project. blah blah blah.",
-      "tools": ["CAD", "Critical thinking"]
+      "image": "/iphone2.jpg",
+      "description": "Test description here. I really liked this project. blah blah blah.",
+      "tools": ["CAD", "Critical Thinking"]
     }
   ]
 }

@@ -6,26 +6,28 @@ import { ThemeToggle } from './theme-toggle';
 
 export default function Navbar() {
   return (
-    <header className='fixed top-0 flex w-full justify-center border-b bg-background'>
+    <header className='fixed top-0 z-10 flex w-full justify-center border-b bg-background'>
       <div className='flex w-full max-w-7xl justify-between p-2'>
-        <Button
-          variant={'ghost'}
-          size={'lg'}
-          className='h-full space-x-2 py-3 font-bold'
-        >
+        <Button variant={'ghost'} className='h-full space-x-2 py-3 font-bold'>
           <RollerCoaster size={32} />
           <span className='text-2xl'>Ethan Perry</span>
         </Button>
         <div className='mr-2 flex space-x-2'>
           <nav className='flex space-x-2'>
             <Button asChild className='h-full' variant={'ghost'}>
-              <Link href={'/Projects'}>Test1</Link>
+              <Link href={'/'}>Projects</Link>
             </Button>
             <Button asChild className='h-full' variant={'ghost'}>
-              <Link href={'/Projects'}>Test2</Link>
+              <Link href={'/'}>Skills</Link>
             </Button>
             <Button asChild className='h-full' variant={'ghost'}>
-              <Link href={'/Projects'}>Test3</Link>
+              <Link href={'/'}>Experience</Link>
+            </Button>
+            <Button asChild className='h-full' variant={'ghost'}>
+              <Link href={'/'}>Resume</Link>
+            </Button>
+            <Button asChild className='h-full' variant={'ghost'}>
+              <Link href={'/'}>Contact Me</Link>
             </Button>
           </nav>
           <ThemeToggle className='my-auto h-full' />
