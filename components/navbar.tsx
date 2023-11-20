@@ -21,9 +21,6 @@ export default function Navbar() {
               <Link href={'/'}>Skills</Link>
             </Button>
             <Button asChild className='h-full' variant={'ghost'}>
-              <Link href={'/'}>Experience</Link>
-            </Button>
-            <Button asChild className='h-full' variant={'ghost'}>
               <Link href={'/'}>Resume</Link>
             </Button>
             <Button asChild className='h-full' variant={'ghost'}>

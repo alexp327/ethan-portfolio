@@ -1,25 +1,25 @@
 {
   "projects": [
     {
-      "title": "Title",
+      "title": "iPhone 15 design",
+      "image": "/title.jpg",
+      "description": "Test description here. I really liked this project. blah blah blah.",
+      "tools": ["CAD", "Critical Thinking", "Machining"]
+    },
+    {
+      "title": "TPED Rollercoaster",
       "image": "/title.jpg",
       "description": "Test description here. I really liked this project. blah blah blah.",
       "tools": ["CAD", "Critical Thinking"]
     },
     {
-      "title": "Title",
+      "title": "Something Super Secret!",
       "image": "/title.jpg",
       "description": "Test description here. I really liked this project. blah blah blah.",
-      "tools": ["CAD", "Critical Thinking"]
+      "tools": ["CAD", "Critical Thinking", "NDAs"]
     },
     {
-      "title": "Title",
-      "image": "/title.jpg",
-      "description": "Test description here. I really liked this project. blah blah blah.",
-      "tools": ["CAD", "Critical Thinking"]
-    },
-    {
-      "title": "Title",
+      "title": "Another iPhone!",
       "image": "/iphone2.jpg",
       "description": "Test description here. I really liked this project. blah blah blah.",
       "tools": ["CAD", "Critical Thinking"]

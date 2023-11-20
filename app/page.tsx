@@ -2,6 +2,8 @@ import { Button } from '@/components/ui/button';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
 import Image from 'next/image';
 import data from '@/db.json';
+import Skills from '@/components/skills';
+import PersonalHighlights from '@/components/personal-highlights';
 
 export default function Home() {
   return (
@@ -26,13 +28,13 @@ export default function Home() {
           </div>
         </div>
         <div className='flex h-fit w-full self-center'>
-          <img
-            src={
-              'https://homework.study.com/cimages/multimages/16/untitled-16905166562969125885.jpg'
-            }
+          <Image
+            src={'/physics.png'}
             alt='rolercobter'
             className='w-full object-cover'
-          ></img>
+            width={500}
+            height={500}
+          ></Image>
         </div>
       </div>
       {/* Projects */}
@@ -43,7 +45,7 @@ export default function Home() {
             return (
               <li
                 key={project.title}
-                className='flex flex-col gap-1 rounded-md bg-primary/30 p-4 transition-all hover:cursor-pointer hover:bg-black/30'
+                className='flex flex-col gap-1 rounded-md bg-secondary p-4 transition-opacity hover:cursor-pointer hover:opacity-70'
               >
                 <AspectRatio ratio={1 / 1} className='z-0'>
                   <Image
@@ -56,10 +58,13 @@ export default function Home() {
                 </AspectRatio>
                 <h3 className='text-xl font-bold'>{project.title}</h3>
                 <p>{project.description}</p>
-                <ul className='flex gap-3'>
+                <ul className='flex flex-wrap gap-3'>
                   {project.tools.map((tool) => {
                     return (
-                      <li className='rounded-md bg-primary/50 px-3 py-1 text-sm'>
+                      <li
+                        key={tool}
+                        className='rounded-md bg-primary/60 px-3 py-1 text-sm'
+                      >
                         {tool}
                       </li>
                     );
@@ -70,9 +75,14 @@ export default function Home() {
           })}
         </ul>
       </div>
-      {/* Experience */}
-      <div className='min-h-screen border-2 border-green-300'></div>
-      {/* Contact Me */}
+      {/* Skills */}
+      <div className='border-2 border-green-300 p-4'>
+        <h2 className='text-center text-3xl font-bold'>Skills</h2>
+        <Skills />
+        <PersonalHighlights />
+      </div>
+      {/* Resume */}
+      <div className='min-h-screen border-2 border-orange-300'></div>
       <div className='min-h-screen border-2 border-orange-300'></div>
     </main>
   );
