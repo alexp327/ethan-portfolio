@@ -9,7 +9,7 @@ export default function Navbar() {
     <header className='fixed top-0 z-10 flex w-full justify-center border-b bg-background'>
       <div className='flex w-full max-w-7xl justify-between p-2'>
         <Button variant={'ghost'} className='h-full space-x-2 py-3 font-bold'>
-          <RollerCoaster size={32} />
+          <RollerCoaster size={32} className='stroke-primary' />
           <span className='text-2xl'>Ethan Perry</span>
         </Button>
         <div className='mr-2 flex space-x-2'>

@@ -4,12 +4,13 @@ import Image from 'next/image';
 import data from '@/db.json';
 import Skills from '@/components/skills';
 import PersonalHighlights from '@/components/personal-highlights';
+import { Mail } from 'lucide-react';
 
 export default function Home() {
   return (
     <main className='mx-auto max-w-7xl'>
       {/* About Me */}
-      <div className='flex min-h-[80vh] w-full border-2 border-red-300 px-2'>
+      <div className='relative flex min-h-[80vh] w-full border-2 border-red-300 px-2'>
         <div className='flex w-full flex-col justify-center'>
           <h1 className='text-6xl'>
             Hello, I&apos;m <br />{' '}
@@ -36,6 +37,10 @@ export default function Home() {
             height={500}
           ></Image>
         </div>
+        {/* Gradient background */}
+        {/* <div className='absolute -z-10 flex h-full w-full items-center justify-center'>
+          <div className='h-1/2 w-1/2 rounded-full bg-gradient-to-tr from-fuchsia-700 to-primary opacity-70 blur-[160px]'></div>
+        </div> */}
       </div>
       {/* Projects */}
       <div className='space-y-4 border-2 border-blue-300 p-4'>
@@ -82,8 +87,21 @@ export default function Home() {
         <PersonalHighlights />
       </div>
       {/* Resume */}
-      <div className='min-h-screen border-2 border-orange-300'></div>
-      <div className='min-h-screen border-2 border-orange-300'></div>
+      <div className='space-y-4 border-2 border-orange-300 p-4'>
+        <h2 className='text-center text-3xl font-bold'>Resume</h2>
+        <iframe
+          src='/Alex_Perry_Resume.pdf'
+          //@ts-expect-error
+          frameborder='0'
+          className='h-screen w-full'
+        ></iframe>
+      </div>
+      <div className='space-y-8 border-2 border-green-300 p-4'>
+        <h2 className='text-center text-3xl font-bold'>Contact Me</h2>
+        <h4 className='mx-auto flex w-fit gap-6 text-xl'>
+          <Mail size={32} /> eperry2658@gmail.com
+        </h4>
+      </div>
     </main>
   );
 }
